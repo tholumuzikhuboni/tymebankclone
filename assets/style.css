@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    padding-top: 20px; /* Small padding at the top for the version */
+}
+
+.version {
+    font-size: 11px;
+    color: #888;
+    text-align: right;
+    margin-bottom: 10px; /* Small margin to separate from logo */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffc107;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 140px;
+    margin-right: 5px;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.open-account,
+.login {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.open-account {
+    background-color: #FFC107;
+    color: #1A1A1A;
+    font-weight: bold;
+}
+
+.login {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #FFC107;
+    text-decoration: none;
+}
+
+.forgot-pin {
+    margin-right: auto;
+    color: #FFC107;
+}
+
+.contact-us {
+    margin-left: auto;
+    color: #FFFFFF;
+}
+
+.contact-us span {
+    color: #FFC107;
+}
+
+.divider {
+    flex-grow: 1;
+    margin: 0 10px;
+}
