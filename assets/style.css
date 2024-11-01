@@ -15,8 +15,11 @@ body {
     align-items: center;
     width: 90%;
     max-width: 400px;
-    height: 100vh;
+    height: 90vh;
     box-sizing: border-box;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    
     
 }
 
