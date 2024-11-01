@@ -18,7 +18,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
     padding-top: 2vh;
-    padding-bottom: 2vh;
+    
 }
 
 .version {
@@ -79,7 +79,7 @@ body {
     font-size: 12px;
     width: 100%;
     padding-bottom: 2px;
-    margin-top: 2px;
+    margin-top: auto;
 }
 
 .footer a {
