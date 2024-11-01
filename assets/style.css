@@ -1,3 +1,5 @@
+Here is my current CSS
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -15,9 +17,10 @@ body {
     align-items: center;
     width: 90%;
     max-width: 400px;
+    height: 100vh;
     box-sizing: border-box;
-    padding-top: 7vh;
-    padding-bottom: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .version {
@@ -58,7 +61,6 @@ body {
     border: none;
     cursor: pointer;
     margin: 10px 0;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .open-account {
@@ -67,19 +69,10 @@ body {
     font-weight: bold;
 }
 
-.open-account:hover {
-    background-color: #e0a806;
-}
-
 .login {
     background-color: transparent;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
-}
-
-.login:hover {
-    background-color: #FFFFFF;
-    color: #1A1A1A;
 }
 
 .footer {
@@ -94,11 +87,6 @@ body {
 .footer a {
     color: #FFC107;
     text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer a:hover {
-    color: #e0a806;
 }
 
 .forgot-pin {
