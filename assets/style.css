@@ -36,18 +36,18 @@ body {
     color: #ffc107;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 8vh; /* Approx. 4 line breaks */
+    margin-bottom: 10vh; /* Approx. 4 line breaks */
 }
 
 .logo img {
     width: 140px;
-    margin-right: 6px;
+    margin-right: 8px;
 }
 
 .welcome-message {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 4vh; /* Approx. 3 line breaks */
+    margin-bottom: 6vh; /* Approx. 3 line breaks */
 }
 
 .open-account,
