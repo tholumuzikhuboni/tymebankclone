@@ -5,7 +5,8 @@ body {
     color: #ffffff;
     display: flex;
     justify-content: center;
-    height: 100vh; /* Ensure body takes up the full viewport height */
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
 }
 
 .container {
@@ -15,9 +16,9 @@ body {
     justify-content: center;
     width: 90%;
     max-width: 400px;
-    padding-top: 20px; /* Small padding at the top for the version */
+    padding-top: 20px;
     text-align: center;
-    min-height: 100vh; /* Full height of the viewport */
+    height: 100vh; /* Fill the entire viewport height */
     box-sizing: border-box;
 }
 
@@ -25,8 +26,8 @@ body {
     font-size: 11px;
     color: #888;
     text-align: right;
-    width: 100%; /* Ensures version aligns to the right */
-    margin-bottom: 10px; /* Small margin to separate from logo */
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -72,15 +73,14 @@ body {
     border: 1px solid #FFFFFF;
 }
 
-/* Footer positioned at the bottom */
+/* Footer at the bottom with consistent visibility */
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
     width: 100%;
-    margin-top: auto; /* Pushes footer to the bottom of container */
-    padding-bottom: 20px; /* Optional padding for bottom spacing */
+    padding-bottom: 20px;
 }
 
 .footer a {
@@ -103,7 +103,5 @@ body {
 }
 
 .divider {
-    flex-grow: 1;
-    margin: 0 10px;
-    border-top: 1px solid #888; /* Optional divider line */
-    }
+    display: none; /* Hide divider line */
+}
