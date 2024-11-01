@@ -15,10 +15,8 @@ body {
     align-items: center;
     width: 90%;
     max-width: 400px;
-    height: 100vh;
     box-sizing: border-box;
-    padding-top: 7vh;
-    padding-bottom: 5vh;
+    padding: 5vh 0; /* Adjusted padding to remove extra space */
 }
 
 .version {
@@ -26,7 +24,7 @@ body {
     color: white;
     text-align: right;
     width: 100%;
-    margin-bottom: 4vh;
+    margin-top: auto; /* Move to the bottom with auto margin */
 }
 
 .logo {
@@ -36,7 +34,7 @@ body {
     color: #ffc107;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10vh;
+    margin-bottom: 6vh; /* Reduced from 10vh */
 }
 
 .logo img {
@@ -47,7 +45,7 @@ body {
 .welcome-message {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 6vh;
+    margin-bottom: 4vh; /* Adjusted from 6vh */
 }
 
 .open-account,
@@ -59,6 +57,7 @@ body {
     border: none;
     cursor: pointer;
     margin: 10px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .open-account {
@@ -67,10 +66,19 @@ body {
     font-weight: bold;
 }
 
+.open-account:hover {
+    background-color: #e0a806;
+}
+
 .login {
     background-color: transparent;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
+}
+
+.login:hover {
+    background-color: #FFFFFF;
+    color: #1A1A1A;
 }
 
 .footer {
@@ -78,13 +86,17 @@ body {
     justify-content: space-between;
     font-size: 12px;
     width: 100%;
-    padding-bottom: 20px;
-    margin-top: auto;
+    margin-top: auto; /* Ensures footer is pushed to the bottom */
 }
 
 .footer a {
     color: #FFC107;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #e0a806;
 }
 
 .forgot-pin {
@@ -97,4 +109,4 @@ body {
 
 .contact-us span {
     color: #FFC107;
-        }
+}
