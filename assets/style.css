@@ -25,7 +25,7 @@ body {
     color: #888;
     text-align: right;
     width: 100%;
-    margin-bottom: 5px; /* Reduce space below version */
+    margin-bottom: 10px; /* Approx. 2 line breaks */
 }
 
 .logo {
@@ -35,7 +35,8 @@ body {
     color: #ffc107;
     font-size: 24px;
     font-weight: bold;
-    margin-top: 0; /* Remove any additional space */
+    margin-top: 0;
+    margin-bottom: 20px; /* Approx. 4 line breaks */
 }
 
 .logo img {
@@ -46,7 +47,8 @@ body {
 .welcome-message {
     font-size: 24px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 0;
+    margin-bottom: 15px; /* Approx. 3 line breaks */
 }
 
 .open-account,
