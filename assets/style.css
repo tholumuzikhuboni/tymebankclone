@@ -5,21 +5,19 @@ body {
     color: #ffffff;
     display: flex;
     justify-content: center;
-    height: 100vh;
-    overflow: hidden; /* Prevent scrolling */
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 90%;
     max-width: 400px;
-    padding-top: 20px;
-    text-align: center;
-    height: 100vh; /* Fill the entire viewport height */
+    height: 100vh;
     box-sizing: border-box;
+    padding: 20px 0;
 }
 
 .version {
@@ -37,6 +35,7 @@ body {
     color: #ffc107;
     font-size: 24px;
     font-weight: bold;
+    margin-top: auto; /* Push logo and above content up */
 }
 
 .logo img {
@@ -45,9 +44,9 @@ body {
 }
 
 .welcome-message {
-    margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .open-account,
@@ -73,14 +72,14 @@ body {
     border: 1px solid #FFFFFF;
 }
 
-/* Footer at the bottom with consistent visibility */
+/* Footer fixed at the bottom */
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     font-size: 12px;
     width: 100%;
     padding-bottom: 20px;
+    margin-top: auto; /* Push footer to bottom */
 }
 
 .footer a {
@@ -89,19 +88,13 @@ body {
 }
 
 .forgot-pin {
-    margin-right: auto;
     color: #FFC107;
 }
 
 .contact-us {
-    margin-left: auto;
     color: #FFFFFF;
 }
 
 .contact-us span {
     color: #FFC107;
-}
-
-.divider {
-    display: none; /* Hide divider line */
 }
