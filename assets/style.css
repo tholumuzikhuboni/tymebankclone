@@ -25,7 +25,7 @@ body {
     color: #888;
     text-align: right;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* Reduce space below version */
 }
 
 .logo {
@@ -35,7 +35,7 @@ body {
     color: #ffc107;
     font-size: 24px;
     font-weight: bold;
-    margin-top: auto; /* Push logo and above content up */
+    margin-top: 0; /* Remove any additional space */
 }
 
 .logo img {
@@ -72,14 +72,13 @@ body {
     border: 1px solid #FFFFFF;
 }
 
-/* Footer fixed at the bottom */
 .footer {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
     width: 100%;
     padding-bottom: 20px;
-    margin-top: auto; /* Push footer to bottom */
+    margin-top: auto;
 }
 
 .footer a {
