@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .container {
@@ -15,10 +15,10 @@ body {
     align-items: center;
     width: 90%;
     max-width: 400px;
-    height: 90vh;
+    height: 100vh;
     box-sizing: border-box;
     padding-top: 2vh;
-    padding-bottom: 2vh;
+    
     
     
 }
