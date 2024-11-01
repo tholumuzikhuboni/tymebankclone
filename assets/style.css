@@ -36,7 +36,7 @@ body {
     color: #ffc107;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10vh; /* Approx. 4 line breaks */
+    margin-bottom: 10vh;
 }
 
 .logo img {
@@ -47,7 +47,7 @@ body {
 .welcome-message {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 6vh; /* Approx. 3 line breaks */
+    margin-bottom: 6vh;
 }
 
 .open-account,
